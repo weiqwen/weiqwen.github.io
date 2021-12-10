@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "_//W3C//DTD HTML 4.0//EN">
+<html lang=fr>
+
+<head>
+<!--To be consistent with concrete place-->
+<title>Weiqiang Wen's Homepage </title>
+</head>
+ 
+
+<body>
+<h1>Measuring, simulating and exploiting the head concavity phenomenon in BKZ</h1>
+
+<h3>Shi Bai, Damien Stehl&eacute; and Weiqiang Wen</h3>
+
+The Blockwise-Korkine-Zolotarev (BKZ) lattice reduction algorithm is central in cryptanalysis, in particular for lattice-based cryptography. A precise understanding of its practical behavior in terms of run-time and output quality is necessary for parameter selection in cryptographic design. As the provable worst-case bounds poorly reflect the practical behavior, cryptanalysts rely instead on the heuristic BKZ simulator of Chen and Nguyen (Asiacrypt'11). It fits better with practical experiments, but not entirely. In particular, it over-estimates the norm of the first few vectors in the output basis. Put differently, BKZ performs better than its Chen-Nguyen simulation.
+
+<br>
+<br>
+
+In this work, we first report experiments providing more insight on this shorter-than-expected phenomenon. We then propose a refined BKZ simulator by taking the distribution of short vectors in random lattices into consideration. We report experiments suggesting that this refined simulator more accurately predicts the concrete behavior of BKZ. Furthermore, we design a new BKZ variant that exploits the shorter-than-expected phenomenon. For the same cost assigned to the underlying SVP-solver,
+the new BKZ variant produces bases of better quality. We further illustrate its potential impact by testing it on the SVP-120 instance of the Darmstadt lattice challenge.
+
+<br>
+<br>
+
+<!--TO BE UPDATED-->
+Download: <a href="data/bkz_head.pdf">pdf</a>.
+
+<br>
+<br>
+
+Our BKZ experiments were run using the <a href="https://github.com/fplll/fplll">fplll</a> (version 5.2.0) and <a href="https://github.com/fplll/fpylll">fpylll</a> (version 0.4.0dev) open-source libraries. 
+Our simulator, coded in Python, and the BKZ variants, coded in C++ are all freely available online: <a href="https://github.com/BKZsimulator">https://github.com/BKZsimulator</a> under the GNU Lesser General Public License (either version 2.1 of the License or any later version).
+
+<br>
+<br>
+
+Some data corresponding to the figures of this chapter: 
+<br>
+<a href="data/Sec-1-bkz45-t2000.txt">fig1-2</a>,
+<br>
+<a href="data/Sec-2-bkz4.txt">fig3</a>,
+<a href="data/Sec-2-bkz8.txt">fig4</a>,
+<a href="data/Sec-2-bkz16.txt">fig5</a>,
+<a href="data/Sec-2-bkz20.txt">fig6</a>,
+<a href="data/Sec-2-bkz30.txt">fig7</a>,
+<a href="data/Sec-2-bkz40.txt">fig8</a> (<a href="data/Sec-2-varybs.mp4">a chain of block-sizes (movie)</a>),
+<a href="data/Sec-2-enum.txt">fig9</a>,
+<a href="data/Sec-2-bkz40-evolution.txt">fig10</a>,
+<a href="data/Sec-2-bkz40-ratio-evolution.txt">fig11</a>,
+<a href="data/Sec-2-hermite-bkz45.txt">fig12</a>,
+<a href="data/Sec-2-pruned-bkz40.txt">fig13</a>,
+<a href="data/Sec-2-pruned-bkz60-evolution.txt">fig14</a>, 
+<br>
+<a href="data/Sec-3-bkz45-t50.txt">fig15-5.16</a>, 
+<a href="data/Sec-3-bkz45-t2000.txt">fig17-5.18</a>, 
+<a href="data/Sec-3-bkz60-t20000.txt">fig19-5.20</a> (<a href="data/Sec-3-bkz60-full.mp4">full GSO norms (movie)</a>, <a href="data/Sec-3-bkz60-first.mp4">first GSO norm (movie)</a>), 
+<a href="data/Sec-3-bkz45-t2000.txt">fig21</a>, 
+<a href="data/Sec-3-hermite-pruned-bkz60.txt">fig22</a>, 
+<a href="data/Sec-3-bkz60-withoutpre.txt">fig23</a>, 
+<a href="data/Sec-3-rhf-inf.txt">fig24</a>, 
+<a href="data/Sec-3-rhf-3times.txt">fig25</a>, 
+<br>
+<a href="data/Sec-4-pbkz60.txt">fig26</a> (<a href="data/Sec-3-bkz60-full.mp4">a process of pressed-BKZ<sub>60</sub> (movie)</a>), 
+<a href="data/Sec-4-simpbkz60.txt">fig27</a>, 
+<a href="data/Sec-4-slope-inf.txt">fig28</a>, 
+<a href="data/Sec-4-slope-3times.txt">fig29</a>, 
+<a href="data/Sec-4-simbkz60-vbs-rhf-t2000.txt">fig30-5.31</a>, 
+<a href="data/Sec-4-bkz60-vbs-rhf-t2000.txt">fig32-5.33</a>, 
+<a href="data/Sec-4-gso.txt">fig34</a>, 
+<a href="data/Sec-4-bkz90-exp.txt">fig35</a>.
+<br>
+
+<p>
+<a href="index.html">Homepage</a>
+</body>

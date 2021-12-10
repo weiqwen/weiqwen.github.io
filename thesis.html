@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "_//W3C//DTD HTML 4.0//EN">
+<html lang=fr>
+
+<head>
+<title>Weiqiang Wen's Homepage </title>
+</head>
+ 
+<!--<p align=right> <a href="these.html">
+<IMG SRC="drapeau_francais.gif" BORDER=0></a>--->
+<!--
+<h2 align=center>Contributions aux fondements de complexit&eacute; de la cryptographie sur r&eacute;seaux (under review)</h2>
+-->
+
+<h2 align=center>Contributions to the hardness foundations of lattice-based cryptography (under review)</h2>
+
+<br>
+<br>
+
+The manuscript: 
+<a href="phd_thesis_weiqiang_wen.pdf">pdf</a>.
+<br>
+An updated version (<a href="phd_thesis_weiqiang_wen_ver2.pdf">pdf</a>): a new paragraph named "Comparison with standard BKZ" is added in Section 5.4.4.<br>
+
+<!--
+The slides of the defense:
+<a href="downloads/thesis_slide.ps.gz">ps.gz</a>,
+<a href="downloads/thesis_slide.pdf">pdf</a>.<br>
+-->
+
+<!--
+<h3 align=left>Jury (Planned)</h3>
+
+<table border="0">
+<tbody><tr align="left">
+
+<tr><td> President:</td> 
+<td><a href="http://www.unilim.fr/pages_perso/philippe.gaborit/">Philippe GABORIT</a>
+</td></tr>
+
+<tr><td>Reviewers:</td> 
+<td><a href="https://www.di.ens.fr/~fouque/">Pierre-Alain FOUQUE</a> </td></tr> 
+<tr><td> </td> <td><a href="http://www.cits.rub.de/personen/may.html">Alexander MAY</a> </td></tr> 
+<tr><td> </td> <td><a href="http://cseweb.ucsd.edu/~daniele/">Daniele MICCIANCIO</a> </td></tr> 
+
+<tr><td>Examiners:</td> 
+<td><a href="http://perso.telecom-bretagne.eu/carolinefontaine/">Caroline FONTAINE</a></td></tr>
+<tr><td></td><td><a href="http://perso.ens-lyon.fr/damien.stehle/">Damien Stehl&eacute;</a> (PhD supervisor)</td></tr>
+</tbody></table>
+-->
+
+<h3 align=left>Absract</h3>
+
+Lattice-based cryptography is one of the most competitive candidates for protecting privacy, both in current applications and post quantum period. The central problem that serves as the hardness foundation of lattice-based cryptography is called the Learning with Errors (LWE). It asks to solve a  noisy equation system, which is linear and over-determined modulo <em>q</em>. Normally, we call LWE problem as an average-case problem as all the coefficients in the equation system are randomly chosen modulo <em>q</em>. The LWE problem is conjectured to be hard even wtih a large scale quantum computer. It is at least as hard as standard problems defined in the lattices, such as Bounded Distance Decoding (BDD) and unique Shortest Vector Problem (uSVP). Finally, the best known algorithm for solving these problems is BKZ, which is very expensive.
+
+<br>
+<br>
+
+In this thesis, we study the quantum hardness of LWE, the hardness relations between the underlying problems BDD and uSVP, and the practical performance of the BKZ algorithm. First, we give a strong evidence of quantum hardness of LWE. Concretely, we consider a relaxed version of the quantum version of dihedral coset problem and show an computational equivalence between LWE and this problem. Second, we tighten the hardness relation between BDD and uSVP. More precisely, We improve the reduction from BDD to uSVP by a factor &radic;<span style="text-decoration:overline;">&nbsp;2&nbsp;</span>, compared to the one by Lyubashevsky and Micciancio. Third, we propose a more precise simulator for BKZ. In the last work, we propose the first probabilistic simulotor for BKZ, which can pridict the practical behavior of BKZ very precisely. 
+
+<h2>Chapter 1: Introduction.</h2>
+
+The backgroud and motivation of this thesis, as well as a brief description of our main contributions are given in this chapter.
+
+<h2>Chapter 2: Preliminaries.</h2>
+
+Some necessary prerequisite definitions, concepts and results are given in this chapter.
+
+<h2>Chapter 3: An improved reduction from BDD to uSVP.</h2>
+
+In this chapter, we first give a brief discussion of the Lyubashevsky-Micciancio reduction from 
+BDD<sub>1/2&gamma;</sub>
+to 
+uSVP<sub>&gamma;</sub>.
+Then we give our improved reduction from 
+BDD<sub>1/&radic;<span style="text-decoration:overline;">&nbsp;2&nbsp;</span>&gamma;</sub>
+to 
+uSVP<sub>&gamma;</sub>.
+We refer the reader to the link: <a href="https://eprint.iacr.org/2016/753">https://eprint.iacr.org/2016/753</a>, for a publication corresponding to this chapter.
+
+<h2>Chapter 4: A Computational Equivalence between LWE and an Extrapolated Variant of DCP.</h2>
+
+In this chapter, we first give a brief discussion on Regev's uSVP to DCP reduction.
+Then we given our results on the computational equivalence between LWE and an extrapolated version of DCP. 
+We refer the reader to the link: <a href="https://arxiv.org/abs/1710.08223">https://arxiv.org/abs/1710.08223</a>, for a publication corresponding to this chapter.
+
+<h2>Chapter 5: A finer modelling of BKZ: understanding the head concavity.</h2>
+
+In this chapter, we first report some experiments providing more insight on the shorter-than-expected phenomenon, which denote the phenomenon that the first few Gram-Schmidt norms in experiments are smaller than the ones in the Chen--Nguyen BKZ simulator.
+Then, we present a refined BKZ simulator, and experimentally show that the new simulator can predict the behavior of BKZ more accurately.
+Finally, we further propose a new BKZ variant by exploiting the shorter-than-expected phenomenon, which can be used to solve the SVP-120 instance of the Darmstadt lattice challenge faster. 
+
+<br>
+<br>
+
+Our BKZ experiments were run using the <a href="https://github.com/fplll/fplll">fplll</a> (version 5.2.0) and <a href="https://github.com/fplll/fpylll">fpylll</a> (version 0.4.0dev) open-source libraries. 
+Our simulator, coded in Python, and the BKZ variants, coded in C++ are all freely available online: <a href="https://github.com/BKZsimulator">https://github.com/BKZsimulator</a> under the GNU Lesser General Public License (either version 2.1 of the License or any later version).
+
+<br>
+<br>
+
+Some data corresponding to the figures of this chapter: 
+<br>
+<a href="bkz_data/Sec-5-1-bkz45-t2000.txt">fig5.1-5.2</a>,
+<br>
+<a href="bkz_data/Sec-5-2-bkz4.txt">fig5.3</a>,
+<a href="bkz_data/Sec-5-2-bkz8.txt">fig5.4</a>,
+<a href="bkz_data/Sec-5-2-bkz16.txt">fig5.5</a>,
+<a href="bkz_data/Sec-5-2-bkz20.txt">fig5.6</a>,
+<a href="bkz_data/Sec-5-2-bkz30.txt">fig5.7</a>,
+<a href="bkz_data/Sec-5-2-bkz40.txt">fig5.8</a> (<a href="bkz_data/Sec-5-2-varybs.mp4">a chain of block-sizes (movie)</a>),
+<a href="bkz_data/Sec-5-2-enum.txt">fig5.9</a>,
+<a href="bkz_data/Sec5-2-bkz40-evolution.txt">fig5.10</a>,
+<a href="bkz_data/Sec5-2-bkz40-ratio-evolution.txt">fig5.11</a>,
+<a href="bkz_data/Sec-5-2-hermite-bkz45.txt">fig5.12</a>,
+<a href="bkz_data/Sec-5-2-pruned-bkz40.txt">fig5.13</a>,
+<a href="bkz_data/Sec5-2-pruned-bkz60-evolution.txt">fig5.14</a>, 
+<br>
+<a href="bkz_data/Sec-5-3-bkz45-t50.txt">fig5.15-5.16</a>, 
+<a href="bkz_data/Sec-5-3-bkz45-t2000.txt">fig5.17-5.18</a>, 
+<a href="bkz_data/Sec-5-3-bkz60-t20000.txt">fig5.19-5.20</a> (<a href="bkz_data/Sec-5-3-bkz60-full.mp4">full GSO norms (movie)</a>, <a href="bkz_data/Sec-5-3-bkz60-first.mp4">first GSO norm (movie)</a>), 
+<a href="bkz_data/Sec-5-3-bkz45-t2000.txt">fig5.21</a>, 
+<a href="bkz_data/Sec-5-3-hermite-pruned-bkz60.txt">fig5.22</a>, 
+<a href="bkz_data/Sec-5-3-hermite-bkz60-withoutpre.txt">fig5.23</a>, 
+<a href="bkz_data/Sec-5-3-rhf-inf.txt">fig5.24</a>, 
+<a href="bkz_data/Sec-5-3-rhf-3times.txt">fig5.25</a>, 
+<br>
+<a href="bkz_data/Sec-5-4-pbkz60.txt">fig5.26</a> (<a href="bkz_data/Sec-5-3-bkz60-full.mp4">a process of pressed-BKZ<sub>60</sub> (movie)</a>), 
+<a href="bkz_data/Sec-5-4-simpbkz60.txt">fig5.27</a>, 
+<a href="bkz_data/Sec-5-4-slope-inf.txt">fig5.28</a>, 
+<a href="bkz_data/Sec-5-4-slope-3times.txt">fig5.29</a>, 
+<a href="bkz_data/Sec-5-4-simbkz60-vbs-rhf-t2000.txt">fig5.30-5.31</a>, 
+<a href="bkz_data/Sec-5-4-bkz60-vbs-rhf-t2000.txt">fig5.32-5.33</a>, 
+<a href="bkz_data/Sec-5-4-gso.txt">fig5.34</a>, 
+<a href="bkz_data/Sec-5-4-bkz90-exp.txt">fig5.35</a>.
+<br>
+
+<p>
+<a href="index.html">Homepage</a>
+</body>
