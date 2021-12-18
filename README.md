@@ -1,6 +1,5 @@
 <!DOCTYPE html PUBLIC "_//W3C//DTD HTML 4.0//EN">
 <html lang="en_US"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>Weiqiang Wen's Homepage</title>
 </head>
 
 <body>
