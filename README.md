@@ -6,7 +6,7 @@
 
 <p align="left">
 <img src="./weiqiang.jpg" alt="[Weiqiang Wen]" align="left" vspace="8" hspace="20" width="160" height="170">
-</p><h1>Weiqiang Wen</h1>
+</p>
 
 I am currently a 
 Postdoc in the <a href="https://www.irisa.fr/emsec/?p=presentation">EMSEC</a> team of the <a href="http://www.irisa.fr/">IRISA</a> laboratory 
