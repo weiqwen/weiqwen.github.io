@@ -28,7 +28,7 @@ on <a href="http://people.irisa.fr/Weiqiang.Wen/thesis.html">hardness of difficu
 <h3><a name="contact">Contact details</a></h3>
 
 IRISA, Rennes <br>
-263 Avenue du Général Leclerc <br>
+263 Avenue du GÃ©nÃ©ral Leclerc <br>
 35042 Rennes Cedex <br>
 France
 <br><br> 
