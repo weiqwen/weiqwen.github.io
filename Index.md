@@ -1,7 +1,7 @@
 <img src="./weiqiang.jpg" alt="[Weiqiang Wen]" align="left" vspace="8" hspace="20" width="160" height="170">
 
 I am currently an associate professor at [Telecom Paris](https://www.telecom-paris.fr/), [Institut Polytechnique de Paris](https://www.ip-paris.fr), as a member of the [Cybersecurity-Cryptography team](https://www.telecom-paris.fr/en/research/laboratories/information-processing-and-communication-laboratory-ltci/research-teams/cybersecurity-cryptography-c2). From 2019 to 2021, I was a postdoc in the <a href="https://www.irisa.fr/emsec/?p=presentation">EMSEC</a> team of the <a href="http://www.irisa.fr/">IRISA</a> laboratory,
-working with <a href="https://www.di.ens.fr/~fouque/">Pierre-Alain Fouque</a> and <a href="http://people.irisa.fr/Adeline.Roux-Langlois/">Adeline Roux-Langlois</a>. In between, I also spent 6 months as a research engineer at [TII](https://www.tii.ae).
+working with <a href="https://www.di.ens.fr/~fouque/">Pierre-Alain Fouque</a> and <a href="http://people.irisa.fr/Adeline.Roux-Langlois/">Adeline Roux-Langlois</a>. Before joining [Telecom Paris](https://www.telecom-paris.fr/), I also spent 6 months as a research engineer at [TII](https://www.tii.ae).
 
 I have completed my PhD under the supervison of [Damien Stehl&eacute;](http://perso.ens-lyon.fr/damien.stehle/) in [LIP](http://www.ens-lyon.fr/LIP) of ENS de Lyon on [hardness of difficult problems in lattices](http://people.irisa.fr/Weiqiang.Wen/thesis.html).
 
