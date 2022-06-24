@@ -15,7 +15,7 @@ Telecom Paris, Institut Polytechnique de Paris
 Email: weiqiang "dot" wen "at" telecom-paris "dot" fr  
 
 ## Publications
-- [Andre Esser], Alexander May(https://www.cits.ruhr-uni-bochum.de/personen/may.html), Javier Verbel and Weiqiang Wen. [https://www.cits.ruhr-uni-bochum.de/personen/may.html](https://eprint.iacr.org/2022/259). [Accepted to Crypto 2022](https://crypto.iacr.org/2022/).
+- Andre Esser, [Alexander May](https://www.cits.ruhr-uni-bochum.de/personen/may.html), Javier Verbel and Weiqiang Wen. [https://www.cits.ruhr-uni-bochum.de/personen/may.html](https://eprint.iacr.org/2022/259). [Accepted to Crypto 2022](https://crypto.iacr.org/2022/).
 - [Katharina Boudgoust](https://katinkabou.github.io/), Corentin Jeudy, [Adeline Roux-Langlois](http://people.irisa.fr/Adeline.Roux-Langlois/) and Weiqiang Wen. [On the Hardness of Module-LWE with Binary Secret](https://eprint.iacr.org/2021/265). [CT-RSA 2021](https://sites.google.com/site/ctrsa2021/home).
 - [Katharina Boudgoust](https://katinkabou.github.io/), Corentin Jeudy, [Adeline Roux-Langlois](http://people.irisa.fr/Adeline.Roux-Langlois/) and Weiqiang Wen. [Towards Classical Hardness of Module-LWE: The Linear Rank Case](https://eprint.iacr.org/2020/1020). [Asiacrypt 2020](https://asiacrypt.iacr.org/2020/).
 - [Martin R. Albrecht](https://malb.io/), [Shi Bai](https://maths-people.anu.edu.au/~bai/), [Pierre-Alain Fouque](https://www.di.ens.fr/~fouque/), Paul Kirchner, [Damien Stehl&eacute;](http://perso.ens-lyon.fr/damien.stehle/) and Weiqiang Wen. [Faster Enumeration-based Lattice Reduction: Root Hermite Factor k^(1/(2k)) in Time k^(k/8 + o(k))](https://eprint.iacr.org/2020/707). [Crypto 2020](https://crypto.iacr.org/2020/).
