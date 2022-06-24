@@ -1,6 +1,6 @@
 <img src="./weiqiang.jpg" alt="[Weiqiang Wen]" align="left" vspace="8" hspace="20" width="160" height="170">
 
-I am currently an associate professor at [Telecom Paris](https://www.telecom-paris.fr/), [Institut Polytechnique de Paris](https://www.ip-paris.fr), as a member of the [Cybersecurity-Cryptography team](https://www.telecom-paris.fr/en/research/laboratories/information-processing-and-communication-laboratory-ltci/research-teams/cybersecurity-cryptography-c2). From 2019 to 2021, I was a postdoc in the <a href="https://www.irisa.fr/emsec/?p=presentation">EMSEC</a> team of the <a href="http://www.irisa.fr/">IRISA</a> laboratory,
+I am currently an assistant professor at [Telecom Paris](https://www.telecom-paris.fr/), [Institut Polytechnique de Paris](https://www.ip-paris.fr), as a member of the [Cybersecurity-Cryptography team](https://www.telecom-paris.fr/en/research/laboratories/information-processing-and-communication-laboratory-ltci/research-teams/cybersecurity-cryptography-c2). From 2019 to 2021, I was a postdoc in the <a href="https://www.irisa.fr/emsec/?p=presentation">EMSEC</a> team of the <a href="http://www.irisa.fr/">IRISA</a> laboratory,
 working with <a href="https://www.di.ens.fr/~fouque/">Pierre-Alain Fouque</a> and <a href="http://people.irisa.fr/Adeline.Roux-Langlois/">Adeline Roux-Langlois</a>. Before joining [Telecom Paris](https://www.telecom-paris.fr/), I also spent 6 months as a research engineer at [TII](https://www.tii.ae).
 
 I completed my PhD under the supervison of [Damien Stehl&eacute;](http://perso.ens-lyon.fr/damien.stehle/) in [LIP](http://www.ens-lyon.fr/LIP) of ENS de Lyon on [hardness of difficult problems in lattices](http://weiqwen.github.io/thesis.html).
@@ -8,13 +8,14 @@ I completed my PhD under the supervison of [Damien Stehl&eacute;](http://perso.e
 **Research interests**: Cryptography; Lattice-based problems
 
 ## Contact details
-Office 4B042, INFRES Department  
+Office 4C55, INFRES Department  
 Telecom Paris, Institut Polytechnique de Paris  
 13 Avenue de la Vauve  
 91120 Palaiseau  
 Email: weiqiang "dot" wen "at" telecom-paris "dot" fr  
 
 ## Publications
+- [Andre Esser], Alexander May(https://www.cits.ruhr-uni-bochum.de/personen/may.html), Javier Verbel and Weiqiang Wen. [https://www.cits.ruhr-uni-bochum.de/personen/may.html](https://eprint.iacr.org/2022/259). [Accepted to Crypto 2022](https://crypto.iacr.org/2022/).
 - [Katharina Boudgoust](https://katinkabou.github.io/), Corentin Jeudy, [Adeline Roux-Langlois](http://people.irisa.fr/Adeline.Roux-Langlois/) and Weiqiang Wen. [On the Hardness of Module-LWE with Binary Secret](https://eprint.iacr.org/2021/265). [CT-RSA 2021](https://sites.google.com/site/ctrsa2021/home).
 - [Katharina Boudgoust](https://katinkabou.github.io/), Corentin Jeudy, [Adeline Roux-Langlois](http://people.irisa.fr/Adeline.Roux-Langlois/) and Weiqiang Wen. [Towards Classical Hardness of Module-LWE: The Linear Rank Case](https://eprint.iacr.org/2020/1020). [Asiacrypt 2020](https://asiacrypt.iacr.org/2020/).
 - [Martin R. Albrecht](https://malb.io/), [Shi Bai](https://maths-people.anu.edu.au/~bai/), [Pierre-Alain Fouque](https://www.di.ens.fr/~fouque/), Paul Kirchner, [Damien Stehl&eacute;](http://perso.ens-lyon.fr/damien.stehle/) and Weiqiang Wen. [Faster Enumeration-based Lattice Reduction: Root Hermite Factor k^(1/(2k)) in Time k^(k/8 + o(k))](https://eprint.iacr.org/2020/707). [Crypto 2020](https://crypto.iacr.org/2020/).
@@ -39,4 +40,4 @@ LWE via uSVP](https://eprint.iacr.org/2019/502). [Africacrypt 2019](http://afric
 - 15/07/2016: [Improved reduction from BDD to uSVP](./bddusvp_ICALP.pdf), [ICALP 2016](http://www.easyconferences.eu/icalp2016) in Rome, Italy.
 - 02/06/2016: [Improved reduction from BDD to uSVP](./bddusvp_AriC.pdf), [AriC seminar](http://www.ens-lyon.fr/LIP/AriC/seminar) in Lyon, France.
 
-Last update: 25/12/2021.
+Last update: 24/06/2022.
